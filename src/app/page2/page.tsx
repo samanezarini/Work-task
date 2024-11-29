@@ -16,7 +16,7 @@ function Page2() {
     return (
         <>
             <header>
-                <div className="max-w-full">
+                <div className="max-w-full shadow-md">
                     <div className={`${headerColor} flex justify-center text-center pt-4 pb-4 p-4 text-white`}>
                         <div className="col-span-8 gap-5">
                             <nav>
