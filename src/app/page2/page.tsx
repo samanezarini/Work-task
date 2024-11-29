@@ -1,8 +1,6 @@
 'use client';
 
-import '@/app/globals.css';
 import { useEffect, useState } from 'react';
-
 
 function Page2() {
 
@@ -15,8 +13,6 @@ function Page2() {
         }
     }, []);
 
-
-
     return (
         <>
             <header>
@@ -25,15 +21,15 @@ function Page2() {
                         <div className="col-span-8 gap-5">
                             <nav>
                                 <ul className="flex text-white" style={{ fontSize: "1.1rem", gap: '4rem' }}>
-                                    <li><a href="">
+                                    <li><a href="page2">
                                         Home</a></li>
-                                    <li><a href="/">
+                                    <li><a href="/page2">
                                         Shop</a></li>
-                                    <li><a href="/">
+                                    <li><a href="/page2">
                                         Pages</a></li>
-                                    <li><a href="/">
+                                    <li><a href="/page2">
                                         Blog</a></li>
-                                    <li><a href="/">
+                                    <li><a href="/page2">
                                         Contacts</a></li>
                                 </ul>
                             </nav>

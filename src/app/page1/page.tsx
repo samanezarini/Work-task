@@ -8,7 +8,7 @@ function Page1() {
 
   const handleButtonClick = (color: string) => {
     localStorage.setItem('headerColor', color);
-    router.push('/component/page2');
+    router.push('/page2');
   };
 
     return (
