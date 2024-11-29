@@ -1,6 +1,8 @@
 import '@/app/globals.css';
 
-function Button() {
+
+function Page1() {
+
     return (
       <>
         <div className="flex flex-col justify-center items-center p-10">
@@ -21,4 +23,4 @@ function Button() {
     );
   }
   
-  export default Button;
+  export default Page1;
