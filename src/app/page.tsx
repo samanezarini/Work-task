@@ -1,12 +1,12 @@
-import Page1 from "@/component/page1";
-import Page2 from "@/component/page2";
+'use client';
+
 import '@/app/globals.css'
+import Page1 from '@/component/page1';
 
 export default function Home() {
   return (
-    <>
-    <Page1/>
-    <Page2/>
-    </>
+    <div>
+      <Page1 />
+    </div>
   );
 }
