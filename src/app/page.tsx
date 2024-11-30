@@ -4,6 +4,7 @@ import '@/app/globals.css'
 import Header from './components/header/Header';
 import Banner from './components/banner/Banner';
 import Services from './components/services/Services';
+import Footer from './components/footer/Footer';
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <Header />
       <Banner />
       <Services />
+      <Footer/>
     </div>
   );
 }
