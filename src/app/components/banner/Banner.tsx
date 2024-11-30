@@ -1,4 +1,5 @@
 import background from './public/hard-light.jpg'
+import { LuNewspaper } from "react-icons/lu";
 
 function Banner() {
 
@@ -14,10 +15,28 @@ function Banner() {
                 </div>
 
                 <div className="container grid grid-cols-2 md:grid-cols-4 gap-4 mt-10">
-                    <div className="bg-white text-gray-950 py-2 rounded-lg font-medium">چند رسانه‌ای</div>
-                    <div className="bg-white text-gray-950 py-2 rounded-lg font-medium">طراحی تخصصی</div>
-                    <div className="bg-white text-gray-950 py-2 rounded-lg font-medium">هدایای تبلیغاتی</div>
-                    <div className="bg-white text-gray-950 py-2 rounded-lg font-medium">انواع چاپ</div>
+                    <div className="bg-white text-gray-950 py-2 rounded-lg flex">چند رسانه‌ای</div>
+                    <div className="bg-white text-gray-950 py-2 rounded-lg flex">طراحی تخصصی</div>
+                    <div className="bg-white text-gray-950 py-2 rounded-lg flex">هدایای تبلیغاتی</div>
+                    <div className="bg-white text-gray-950 py-2 rounded-lg flex">
+                        <p>انواع چاپ</p>
+                        <LuNewspaper />
+                    </div>
+                </div>
+                
+                <div className="bg-blue-800 py-4">
+                    <div className="container mx-auto flex justify-center space-x-8">
+                        {["چند رسانه ای", "طراحی تخصصی", "هدایای تبلیغاتی", "انواع چاپ"].map(
+                            (item) => (
+                                <button
+                                    key={item}
+                                    className="text-white font-semibold hover:bg-blue-600 px-4 py-2 rounded-lg transition"
+                                >
+                                    {item}
+                                </button>
+                            )
+                        )}
+                    </div>
                 </div>
             </div>
         </div>

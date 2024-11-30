@@ -10,7 +10,7 @@ import { GiButterfly } from "react-icons/gi";
 function Header() {
     return (
         <header className='flex justify-center items-center shadow-md'>
-            <div className='flex flex-row-reverse justify-between text-center gap-16 pt-5 pb-5'>
+            <div className='container flex flex-row-reverse justify-between text-center w-[70rem] pt-5 pb-5'>
                 <div>
                     <div className=''>
                         <a href="/" className='flex'>
@@ -19,7 +19,7 @@ function Header() {
                         </a>
                     </div>
                 </div>
-                <div className="col-span-8 gap-5">
+                <div className="col-span-8 gap-5 mt-2">
                     <nav>
                         <ul className="flex flex-row-reverse text-black gap-16">
                             <li><a href="header" className='flex'>
@@ -31,7 +31,7 @@ function Header() {
                         </ul>
                     </nav>
                 </div>
-                <div className='flex flex-row-reverse gap-10 ps-28'>
+                <div className='flex flex-row-reverse gap-12 mr-8'>
                     <button className='flex bg-gray-300 py-1 px-6 h-8'>
                         <p className='me-2'>دانلود اپلیکیشن</p>
                         <VscCloudDownload className='mt-1' />

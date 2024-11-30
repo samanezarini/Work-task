@@ -1,9 +1,9 @@
 'use client';
 
 import '@/app/globals.css'
-import Link from 'next/link';
 import Header from './components/header/Header';
 import Banner from './components/banner/Banner';
+import Services from './components/services/Services';
 
 
 export default function Home() {
@@ -16,10 +16,10 @@ export default function Home() {
     //     </Link>
     //   </div>
     // </div>
-
-    <>
-    <Header/>
-    <Banner/>
-    </>
+    <div className='bg-gray-100 '>
+      <Header />
+      <Banner />
+      <Services />
+    </div>
   );
 }
