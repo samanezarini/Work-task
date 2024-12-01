@@ -14,9 +14,9 @@ function Banner() {
                     </button>
                 </div>
                 
-                <div className="flex justify-center w-[55rem] bg-gray-100 ml-20 py-4 mt-16 shadow-md">
+                <div className="flex justify-center w-[60rem] bg-gray-100 mr-16 py-4 mt-16 shadow-md">
                     <div className="container mx-auto flex justify-center space-x-8">
-                        {["چند رسانه ای", "طراحی تخصصی", "هدایای تبلیغاتی", "انواع چاپ"].map(
+                        {[ "انواع چاپ", "هدایای تبلیغاتی", "طراحی تخصصی","چند رسانه ای"].map(
                             (item) => (
                                 <button
                                     key={item}
