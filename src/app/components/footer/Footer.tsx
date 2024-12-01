@@ -6,7 +6,7 @@ function Footer() {
             <footer className="text-white bg-blue-700">
                 <div className='flex justify-center items-center'>
                     <div className='container flex text-start w-[70rem] pt-5 pb-5'>
-                        <div className='w-1/2 pt-5 pb-5 px-8 pl-10'>
+                        <div className='w-full lg:w-1/2 md:w-52 pt-5 pb-5 px-8 pl-10'>
                             <h2 className='text-xl mb-3 font-bold'>
                                 لدیما؛ دستیار آنلاین فروش مبتنی بر سفارش
                             </h2>
@@ -27,7 +27,7 @@ function Footer() {
                                 <li>چند رسانه ای</li>
                             </ul>
                         </div>
-                        <div className='w-2/2 pt-5 pb-5 px-16'>
+                        <div className='w-2/2 pt-5 pb-5 pl-4 pr-16'>
                             <h2 className="text-xl mb-3 font-bold">اطلاعات تماس</h2>
                             <ul className="">
                                 <li>آدرس: تهران - پردیس - کدپستی 87878-1515</li>
